@@ -1,9 +1,19 @@
 import './App.css';
+import Navigation from "./components/Navigation/Navigation"
 
 function App() {
   return (
     <div className="app">
-      <h1>App.js</h1>
+      
+
+     {/* nav */}
+     <Navigation />
+     {/* header */}
+     {/* about me */}
+     {/* skills */}
+     {/* projects */}
+     {/* contact me */}
+     {/* footer */}
     </div>
   );
 }
