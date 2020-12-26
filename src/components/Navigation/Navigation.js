@@ -15,13 +15,13 @@ function Navigation() {
     return (
         <div className="navigation">
             <div className="navigation__left">
-                <div className="navigation__links">
+                <div className="navigation__links" id={showLinks ? "hidden" : ""}>
                     <a href="/">About Me</a>
                     <a href="/">Skills</a>
                     <a href="/">Projects</a>
                     <a href="/">Contact Me</a>
-                    <IconButton> <MenuIcon /> </IconButton>
                 </div>
+                <IconButton onClick={() => setShowLinks(!showLinks)}> <MenuIcon /> </IconButton>
             </div>
 
             <div className="navigation__right">
