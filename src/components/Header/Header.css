@@ -1,4 +1,5 @@
 .header__picture > img {
     width: 100%;
-  
+    opacity: .4;
+    
 }
