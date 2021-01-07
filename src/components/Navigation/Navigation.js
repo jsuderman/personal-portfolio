@@ -29,7 +29,7 @@ function Navigation() {
                     <IconButton>
                         <LinkedInIcon
                             fontSize="large"
-
+                            
                         />
                     </IconButton>
 

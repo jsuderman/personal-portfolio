@@ -1,5 +1,6 @@
 import './App.css';
-import Navigation from "./components/Navigation/Navigation"
+import Navigation from "./components/Navigation/Navigation";
+import Header from "./components/Header/Header"
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
      {/* nav */}
      <Navigation />
      {/* header */}
+     <Header />
      {/* about me */}
      {/* skills */}
      {/* projects */}
