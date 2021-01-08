@@ -25,6 +25,7 @@ function Navigation() {
                         offset={50}
                         duration={500}
                         delay={1}
+                        hover="pointer"
                     >
                         About Me
                     </Link>
@@ -55,7 +56,7 @@ function Navigation() {
                         spy={true}
                         smooth={true}
                         hashSpy={true}
-                        offset={50}
+                        offset={0}
                         duration={500}
                         delay={1}
                     >

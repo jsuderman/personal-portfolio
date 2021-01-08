@@ -47,8 +47,12 @@
     margin-left: 15px;
 }
 
+.navigation__left .navigation__links > a:hover {
+    cursor: pointer;
+}
+
 @media only screen and (max-width: 850px) {
-    .navigation__left .navigation__links > Link {
+    .navigation__left .navigation__links > a {
         font-size: 15px;
     }
 }
@@ -75,9 +79,13 @@
         align-items: center;
     }
 
-    .navigation__left > #hidden > Link {
+    .navigation__left > #hidden > a {
         margin: 10px;
         color:white;
+    }
+
+    .navigation__left > #hidden > a:hover {
+        cursor: pointer;
     }
 }
 
