@@ -71,22 +71,25 @@ function Navigation() {
 
             <div className="navigation__right">
                 <div className="navigation__socials">
-                    <IconButton>
+                    <IconButton target="_blank" href="https://www.linkedin.com/in/justin-suderman-a411471a6/">
                         <LinkedInIcon
                             fontSize="large"
-
+                            color="primary"
                         />
                     </IconButton>
 
-                    <IconButton>
+                    <IconButton target="_blank" href="https://github.com/jsuderman">
                         <GitHubIcon
                             fontSize="large"
+                            color="primary"
+                            
                         />
                     </IconButton>
 
                     <IconButton>
                         <EmailIcon
                             fontSize="large"
+                            color="primary"
                         />
                     </IconButton>
 

@@ -24,8 +24,6 @@
 
 .navigation__socials {
     display: flex;
-    background-color: white;
-    color: blueviolet;
 }
 
 .navigation__left .navigation__links {
