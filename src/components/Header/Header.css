@@ -1,6 +1,35 @@
-.header__picture > img {
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* border: green solid; */
+  position: relative;
+  background-image: url("https://images.unsplash.com/photo-1593642531955-b62e17bdaa9c?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTl8fGNvbXB1dGVyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60");
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.header__info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
     width: 100%;
-    opacity: .4;
-    height: 750px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white
+}
+
+.header__links > button {
+    color: white;
+    
     
 }
+
+
+
+
+

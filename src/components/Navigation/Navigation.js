@@ -22,7 +22,7 @@ function Navigation() {
                         spy={true}
                         smooth={true}
                         hashSpy={true}
-                        offset={50}
+                        offset={0}
                         duration={500}
                         delay={1}
                         hover="pointer"
@@ -34,7 +34,7 @@ function Navigation() {
                         spy={true}
                         smooth={true}
                         hashSpy={true}
-                        offset={50}
+                        offset={0}
                         duration={500}
                         delay={1}
                     >
@@ -45,7 +45,7 @@ function Navigation() {
                         spy={true}
                         smooth={true}
                         hashSpy={true}
-                        offset={50}
+                        offset={0}
                         duration={500}
                         delay={1}
                     >
