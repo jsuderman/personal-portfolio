@@ -4,7 +4,7 @@ import { IconButton } from '@material-ui/core';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
-import { white } from '@material-ui/core/colors';
+
 
 
 function Header() {
@@ -19,7 +19,7 @@ function Header() {
                     <IconButton target="_blank" href="https://www.linkedin.com/in/justin-suderman-a411471a6/">
                         <LinkedInIcon
                             fontSize="large"
-                            style={{ color: white[500] }}
+                        
                         />
                     </IconButton>
 
