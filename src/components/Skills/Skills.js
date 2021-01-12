@@ -4,8 +4,24 @@ import "./Skills.css";
 function Skills() {
     return (
         <div className="skills" id="skills">
-            <div>
-                <h2>skills section</h2>
+            <div className="skills__header">
+                <h2>skills header</h2>
+            </div>
+
+            <div className="skills__one">
+                <h3>skills section one</h3>
+            </div>
+
+            <div className="skills__one">
+                <h3>skills section one</h3>
+            </div>
+
+            <div className="skills__one">
+                <h3>skills section one</h3>
+            </div>
+
+            <div className="skills__one">
+                <h3>skills section one</h3>
             </div>
         </div>
     )
